@@ -21,7 +21,7 @@ By entering these details into the system, users can quickly get an idea of how 
 
 The portal is designed to support researchers, and oil mill operators in making better decisions and improving the efficiency of the oil extraction process.
 
-CottonExpelOilYieldPred is freely accessible to the academic community at: **https://CottonExpelOilYieldPred.streamlit.app/**
+CottonExpelOilYieldPred is freely accessible to the academic community at: **https://cottonseed-dss.streamlit.app/**
 """)
 
 st.text("")
