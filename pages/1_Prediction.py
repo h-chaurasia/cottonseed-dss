@@ -73,7 +73,7 @@ x4 = 1 if seed_quality == "Very good" else 0
 # 5: Number of bolts (radio)
 bolts = st.radio(
     "No. of Bolts",
-    options=["12", "9"],
+    options=["9", "12"],
     horizontal=True
 )
 x5 = 1 if bolts == "12" else 0
