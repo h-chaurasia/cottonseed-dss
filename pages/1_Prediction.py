@@ -34,11 +34,11 @@ models = load_models()
 # -----------------------------
 # INPUT SECTION
 # -----------------------------
-st.subheader("🔢 Input Independent Variables")
+st.subheader("🔢 Input Following Values")
 
 # 1–3: numeric inputs
 x1 = st.number_input(
-    "CS moisture (%wb)",
+    "CottonSeed Moisture (%wb)",
     min_value=6,
     step=1,
     #value=0,
@@ -46,7 +46,7 @@ x1 = st.number_input(
 )
 
 x2 = st.number_input(
-    "Screw speed (RPM)",
+    "Screw Speed (RPM)",
     min_value=12,
     step=1,
     #value=0,
@@ -54,7 +54,7 @@ x2 = st.number_input(
 )
 
 x3 = st.number_input(
-    "Avg Cake thickness (mm)",
+    "Avg Cake Thickness (mm)",
     min_value=12,
     step=1,
     #value=0,
@@ -64,7 +64,7 @@ x3 = st.number_input(
 
 # 4: Seed quality (radio)
 seed_quality = st.radio(
-    "Seed quality",
+    "Seed Quality",
     options=["Very good", "Good"],
     horizontal=True
 )
@@ -80,7 +80,7 @@ x5 = 1 if bolts == "12" else 0
 
 # 6: Moisture type (radio)
 moisture_type = st.radio(
-    "Moisture natural/added",
+    "Moisture type",
     options=["Natural", "Added"],
     horizontal=True
 )
